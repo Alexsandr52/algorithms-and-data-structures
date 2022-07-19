@@ -25,4 +25,4 @@ while try_count <= 10:
         break
 
 if try_count > 10:
-    print('Попытки закончились')
+    print(f'Попытки закончились, загаданное число - {secret_num}')
